@@ -7,7 +7,7 @@
 
 .navbar {
     background: #131313;
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -472,3 +472,30 @@
         width: 300px;
     }
 }
+
+.beamcontainer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 90vh;
+		}
+		.left-side {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #f1f1f1;
+			height: 100%;
+		}
+		.right-side {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		.beam1image {
+			max-width: 100%;
+			max-height: 100%;
+		}
